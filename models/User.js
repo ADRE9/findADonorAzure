@@ -112,8 +112,8 @@ const userSchema = new mongoose.Schema({
 //generating auth tokens
 userSchema.methods.generateAuthTokens= async function(){
   const user = this;
-  console.log(findADonor);
-  const token = jwt.sign({ _id: user._id.toString() }, findADonor);
+  // console.log(findADonor);
+  const token = jwt.sign({ _id: user._id.toString() }, "findADonor");
   user.tokens = user.tokens.concat({ token :token });
   await user.save();
   return token;
