@@ -2,7 +2,8 @@ const mongoose = require('mongoose');
 
 // const URL = "mongodb+srv://Arshie13:Iammak@findadonor.rfbzl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
-const URL = "mongodb://find-donor:FXexLteJdhWsYm2xhBwZVQmPQgVu7yzDqEavP0whV8t2mEjtAf3ZoZbwwos52v8h0Z1ricrRLQHLJ8NKBaks6g%3D%3D@find-donor.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&maxIdleTimeMS=120000&appName=@find-donor@";
+const URL =
+	"mongodb://find-a-donor-db:14zJu0zBkMNLG7ILciwF46ENszcbxpkVs43RJEQ59bF9wKYVhlRy0vh2tPqNddb6Z93hdSzWdf6cS7VXOf1ynA==@find-a-donor-db.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&maxIdleTimeMS=120000&appName=@find-a-donor-db@";
 // 
 const DBNAME = "find-a-donor";
 
